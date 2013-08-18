@@ -1,0 +1,1 @@
+Maps = new Meteor.Collection("Maps");

@@ -1,0 +1,10 @@
+/* CSS declarations go here */
+#mainCanvas  {
+border: 1px black solid;
+margin : 10px;
+}
+
+img.selected{
+    width: 32px;
+    height:  32px;
+}

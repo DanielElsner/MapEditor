@@ -1,0 +1,10 @@
+<template name="images">
+
+{{#each images}}
+	{{>image}}
+{{/each}}
+</template>
+
+<template name="image">
+	<image src="images/{{name}}.png" id ="{{name}}" class="{{isSelected}}"/>
+</template>

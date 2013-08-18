@@ -1,0 +1,30 @@
+<head>
+  <title>mapPrototype</title>
+</head>
+
+<body>
+  {{> mainLayout}}
+</body>
+<template name="mainLayout">
+	<div class="row-fluid">
+		<div class="span8">
+			<div class="row-fluid">
+				{{> leftContainer}}
+			</div>
+		</div>
+		<div class="span4">
+			<div class="row-fluid">
+				{{> rightContainer}}
+			</div>
+		</div>
+	</div>
+</template>
+
+<template name="leftContainer">
+	{{>mainCanvas}}
+</template>
+<template name="rightContainer">
+	{{>images}}
+	{{>maps}}
+	{{>controls}}
+</template>
